@@ -57,9 +57,9 @@ namespace Jipp5MZLib
 
     public class Cappy : Napoj
     {
-        double cena = 2;
+        double cena = 5;
         protected override double Cena { get => cena; set => cena = value; }
-        double pojemnosc = 0.33;
+        double pojemnosc = 1;
         protected override double Pojemnosc { get => pojemnosc; set => pojemnosc = value; }
 
         public override void Otworz()
